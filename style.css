@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+li {
+    margin: 5px 0;
+}
+
+
+.Main-Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-Block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+
+.delete {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.delete:hover {
+    background-color: #cc0000; 
+    transform: scale(1.1); 
+}
+
+
+.delete:active {
+    background-color: #990000;
+    transform: scale(1); 
+}
